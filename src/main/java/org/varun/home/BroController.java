@@ -9,6 +9,6 @@ public class BroController {
 
     @GetMapping("/bat")
     public String sugar(){
-        return "/WEB-INF/view/MrfCricketBat.jsp";
+        return "MrfCricketBat";
     }
 }
